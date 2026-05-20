@@ -1,0 +1,67 @@
+/* ---------- GENERALE ---------- */
+* {
+  font-family: "JetBrainsMono Nerd Font", monospace;
+  font-size: 12px;
+  color: #eceff4;
+}
+.module{
+    margin: 10px;
+}
+window#waybar {
+  background: rgba(30, 30, 46, 0.85);
+  border-bottom: 1px solid #3b4252;
+}
+
+/* ---------- WORKSPACES ---------- */
+#workspaces {
+  margin: 0 6px;
+}
+
+#workspaces button {
+  padding: 4px 10px;
+  margin: 2px;
+  border-radius: 6px;
+  background: transparent;
+  color: #d8dee9;
+  transition: 0.15s ease;
+}
+
+#workspaces button:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+#workspaces button.active {
+  background: #5e81ac;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+/* ---------- MODULI (es. clock, tray, network) ---------- */
+
+#clock,
+#network,
+#pulseaudio{  
+}
+#cpu{
+}
+#memory{
+
+}
+
+#battery{
+
+}
+#tray {
+  padding: 4px 10px;
+  margin: 0 10px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 6px;
+}
+#clock:hover,
+#network:hover,
+#pulseaudio:hover,
+#battery:hover,
+#tray:hover {
+  background: rgba(255, 255, 255, 0.10);
+}
+
