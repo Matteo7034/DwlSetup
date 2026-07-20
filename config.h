@@ -185,8 +185,8 @@ static const Key keys[] = {
 
     {MODKEY | WLR_MODIFIER_SHIFT, XKB_KEY_q, quit, {0}},
     {MODKEY, XKB_KEY_Print, spawn, SHCMD("$HOME/DwlSetup/scripts/shot")},
-    {0, XKB_KEY_XF86MonBrightnessUp, spawn, SHCMD("brightnessctl set +5%")},
-    {0, XKB_KEY_XF86MonBrightnessDown, spawn, SHCMD("brightnessctl set 5%-")},
+    {0, XKB_KEY_XF86MonBrightnessUp, spawn, SHCMD("brightnessctl set +3%")},
+    {0, XKB_KEY_XF86MonBrightnessDown, spawn, SHCMD("brightnessctl set 3%-")},
     {0, XKB_KEY_XF86AudioRaiseVolume, spawn,
      SHCMD("pactl set-sink-volume @DEFAULT_SINK@ +5%")},
     {0, XKB_KEY_XF86AudioLowerVolume, spawn,

@@ -24,6 +24,8 @@ pensata per essere semplice da compilare e usare su sistemi Wayland leggeri.
 - (Dipendenze interne di dwl – da aggiornare)
 - xlsclients
 - xwayland
+- pipewire wireplumber 
+- xdg-desktop-portal-wlr
 ## Installazione
 ```bash
 sudo make clean install
