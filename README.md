@@ -22,7 +22,8 @@ pensata per essere semplice da compilare e usare su sistemi Wayland leggeri.
 - foot
 - brightnessctl
 - (Dipendenze interne di dwl – da aggiornare)
-
+- xlsclients
+- xwayland
 ## Installazione
 ```bash
 sudo make clean install
