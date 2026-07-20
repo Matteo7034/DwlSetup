@@ -6,7 +6,7 @@ pensata per essere semplice da compilare e usare su sistemi Wayland leggeri.
 
 
 ## Preview
-![Screenshot](assets/screen.jpeg)
+![Screenshot](assets/screen1.jpeg)
 
 
 ### Dipendenze
