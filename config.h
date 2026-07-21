@@ -9,8 +9,8 @@ static const int bypass_surface_visibility =
           surface isn't visible  */
 static const unsigned int borderpx = 1; /* border pixel of windows */
 static const float rootcolor[] = COLOR(0x222222ff);
-static const float bordercolor[] = COLOR(0x444444ff);
-static const float focuscolor[] = COLOR(0x005577ff);
+static const float bordercolor[] = COLOR(0xffffffff);
+static const float focuscolor[] = COLOR(0xff66ccff);
 static const float urgentcolor[] = COLOR(0xff0000ff);
 
 static const int enable_xwayland = 1;
